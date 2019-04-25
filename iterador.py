@@ -4,5 +4,5 @@
 #     print("Iteración {}".format(i + 1))
 #     i +=1
 
-for i in range(0,50) :
+for i in range(50) :
     print("Iteración {}".format(i + 1))

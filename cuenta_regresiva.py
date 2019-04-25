@@ -8,10 +8,11 @@
 
 
 cuenta_regresiva = int(input("Ingrese un número para comenzar la cuenta\n"))
-i=cuenta_regresiva
-while i > 0:
-    print("Iteración {}".format(i))
-    i -=1
+i=0
+tmp=cuenta_regresiva
+while i < cuenta_regresiva:
+    print("Iteración {}".format(tmp-i))
+    i +=1
 
 
 

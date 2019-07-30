@@ -7,6 +7,8 @@ for i in claveIngresada:
         print("estoy comparando {} con ".format(i), j)
         if i.lower()==j:
             contador +=1
+            print(contador)
+            print ("letra encontrada")
             break
         contador +=1
 print (contador)
